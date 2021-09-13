@@ -1,0 +1,20 @@
+.form__input {
+
+    padding-left: 11px;
+
+    background-color: $mainPageColor;
+
+    border: $borderLine;
+    border-radius: 0;
+
+    color: $mainTextColor;
+
+    box-sizing: border-box;
+
+}
+
+.form__input:focus::placeholder {
+
+    opacity: 0;
+
+}

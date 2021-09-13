@@ -1,0 +1,22 @@
+.button_type_burger {
+
+    display: none;
+
+    width: 26px;
+    height: 26px;
+
+    background-image: url(../../../../images/burger_menu.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .button_type_burger {
+
+        display: block;
+
+    }
+
+}
