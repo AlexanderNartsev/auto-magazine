@@ -10,3 +10,13 @@
     background-size: cover;
 
 }
+
+@media screen and (max-width: 768px) {
+
+    .cover__image {
+
+        width: auto;
+    
+    }
+    
+}

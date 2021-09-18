@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Auto-magazine</title>
 </head>
@@ -66,9 +67,48 @@
             </div>
         </section>
 
-        <section class="galery"></section>
+        <section class="galery">
+            <div class="galery__swiper">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="galery__img" src="./images/img2.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="galery__img" src="./images/img3.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="galery__img" src="./images/img4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="galery__navigation">
+                    <h3 class="galery__header">Галерея</h3>
+                    <div class="galery__buttons">
+                        <div class="swiper-button-prev swiper__button"></div>
+                        <div class="swiper-button-next swiper__button"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="galery__area"></div>
+        </section>
 
-        <section class="press"></section>
+        <section class="press">
+            <h3 class="press__header">Пресса</h3>
+            <div class="press__article">
+                <p class="press__text">
+                    <span class="press__magazine">Engadget:</span>
+                    VW’s e-BULLI concept shows how your classic van can becomean EV.
+                </p>
+                <div class="press__menu">
+                    <div class="press__list">
+                        <button class="button press__button press__button_on" type="button"></button>
+                        <button class="button press__button" type="button"></button>
+                    </div>
+                    <a class="press__link" href="#">Читать</a>
+                </div>
+            </div>
+        </section>
 
     </main>
 
@@ -89,30 +129,11 @@
         </div>
     </section>
 
-    <!-- Slider main container -->
-    <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
-            ...
-        </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
-    </div>
-
-
 </body>
 
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="./scripts/swiper.js"></script>
 <script src="./scripts/script.js"></script>
+
 
 </html>

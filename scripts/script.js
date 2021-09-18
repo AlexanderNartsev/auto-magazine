@@ -19,7 +19,7 @@ function closeMobileMenu() {
     menu.classList.remove('header__menu_mobile');
     buttonClose.classList.add('button_hide');
     buttonMenu.classList.remove('button_hide');
-    
+
 }
 
 buttonMenu.addEventListener('click', openMobileMenu);
