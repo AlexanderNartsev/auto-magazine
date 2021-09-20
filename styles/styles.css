@@ -24,7 +24,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-image: url(../../../../images/logo.png);
+  background-image: url(../images/logo.svg);
   background-repeat: no-repeat;
   background-position: center;
   border-bottom: 2px solid #E1FD2C;
@@ -38,9 +38,13 @@
 @media screen and (max-width: 320px) {
   .header {
     padding: 0 20px;
-    background-image: url(../../../../images/logo_mobile.png);
+    background-size: 100px;
   }
 }
+.header__nav {
+  margin: 0;
+}
+
 .header__menu {
   padding: 0;
   display: flex;
@@ -53,7 +57,7 @@
     display: none;
   }
 }
-.header__menu_mobile {
+.header__menu_style_mobile {
   display: flex;
 }
 
@@ -69,7 +73,7 @@
 .header__link {
   text-decoration: none;
   color: #E1FD2C;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", serif, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -77,6 +81,7 @@
   /* identical to box height, or 133% */
   letter-spacing: 1px;
   text-transform: uppercase;
+  transition: 0.5s;
 }
 
 .header__link:hover {
@@ -109,7 +114,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #E1FD2C;
   }
 }
 .cover__content {
@@ -121,14 +125,14 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: start;
   align-items: center;
 }
 
 .cover__title {
   margin: 0;
-  padding: 0;
-  font-family: "Source Sans Pro";
+  padding: 30px 0 20px 0;
+  font-family: "Source Sans Pro", serif, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 65px;
@@ -139,8 +143,8 @@
 
 .cover__text {
   margin: 0;
-  padding: 0;
-  font-family: "Source Sans Pro";
+  padding: 30px 0 0 0;
+  font-family: "Source Sans Pro", serif, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 19px;
@@ -181,15 +185,15 @@
   box-sizing: border-box;
   max-width: 720px;
   width: 100%;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", serif, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
-  line-height: 42px;
+  line-height: 140%;
   color: #E1FD2C;
 }
 
-.article__text_bold {
+.article__text_weight_bold {
   font-weight: bold;
 }
 
@@ -221,7 +225,7 @@
 .article__list-header {
   margin: 0;
   padding: 0 0 50px 0;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", serif, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -235,7 +239,7 @@
 .article__list-el {
   margin: 0;
   padding: 0 0 2px 0;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", serif, sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 21px;
@@ -264,6 +268,7 @@
   border: none;
   border-radius: 0;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .button:hover {
@@ -271,11 +276,12 @@
 }
 
 .button_type_details {
-  width: 340px;
-  height: 60px;
+  margin: 60px 0 0 0;
+  width: 360px;
+  height: 64px;
   color: #E1FD2C;
   border: 2px solid #E1FD2C;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", serif, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -292,12 +298,12 @@
 }
 
 .button_type_burger {
-  display: none;
   width: 26px;
   height: 26px;
-  background-image: url(../../../../images/burger_menu.svg);
   background-position: center;
   background-repeat: no-repeat;
+  background-image: url(../images/burger_menu.svg);
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -308,17 +314,27 @@
 .button_type_close {
   width: 26px;
   height: 26px;
-  background-image: url(../../../../../images/plus_45.svg);
   background-position: center;
   background-repeat: no-repeat;
+  background-image: url(../images/plus_45.svg);
 }
 
 .button_type_submit {
   background-color: #E1FD2C;
   grid-column: 4/5;
+  font-family: "Source Sans Pro", serif, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  /* identical to box height, or 130% */
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #191D2C;
 }
 
-.button_hide {
+.button_display_hide {
   display: none;
 }
 
@@ -355,7 +371,7 @@
 .galery__header {
   margin: 0;
   padding: 0;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", serif, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 46px;
@@ -391,6 +407,7 @@
   margin: 0;
   position: relative;
   color: #E1FD2C;
+  transition: 0.5s;
 }
 
 .swiper__button:hover {
@@ -413,7 +430,7 @@
   margin: 0;
   padding: 50px;
   box-sizing: border-box;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", serif, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 46px;
@@ -430,7 +447,7 @@
   padding: 50px;
   min-height: 500px;
   box-sizing: border-box;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", serif, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -448,12 +465,16 @@
   margin: 0;
 }
 
+.press__magazine {
+  font-weight: bold;
+}
+
 .press__menu {
   margin: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .press__link {
@@ -464,12 +485,15 @@
   border-radius: 50%;
   text-align: center;
   text-decoration: none;
+  text-overflow: ellipsis;
   color: #E1FD2C;
   display: block;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", serif, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 19px;
+  line-height: 50px;
+  transition: 0.5s;
 }
 
 .press__link:hover {
@@ -480,12 +504,12 @@
 .press__button {
   width: 12px;
   height: 12px;
-  margin-right: 14px;
+  margin-right: 10px;
   border: 2px solid #E1FD2C;
   border-radius: 50%;
 }
 
-.press__button_on {
+.press__button_switch_on {
   background-color: #E1FD2C;
 }
 
@@ -513,7 +537,7 @@
 
 .footer__title {
   margin: 0 0 16px 0;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", serif, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 46px;
@@ -524,7 +548,7 @@
 
 .footer__description {
   margin: 0 0 64px 0;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", serif, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 19px;
@@ -544,7 +568,7 @@
 
 .footer__copyright {
   margin: 0;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", serif, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -566,10 +590,19 @@
 .form__input {
   padding-left: 11px;
   background-color: #191D2C;
-  border: 2px solid #E1FD2C;
+  border: 1px solid #E1FD2C;
   border-radius: 0;
   color: #E1FD2C;
   box-sizing: border-box;
+  font-family: "Source Sans Pro", serif, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 18px;
+  /* identical to box height, or 200% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #E1FD2C;
 }
 
 .form__input:focus::placeholder {

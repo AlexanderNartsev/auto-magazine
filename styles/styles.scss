@@ -9,7 +9,7 @@
 @import './modules/blocks/header/header.scss';
 @import './modules/blocks/header/__nav/header__nav.scss';
 @import './modules/blocks/header/__menu/header__menu.scss';
-@import './modules/blocks/header/__menu/_mobile/header__menu_mobile.scss';
+@import './modules/blocks/header/__menu/_style/header__menu_style_mobile.scss';
 @import './modules/blocks/header/__menu-el/header__menu-el.scss';
 @import './modules/blocks/header/__link/header__link.scss';
 @import './modules/blocks/header/_mobile/header_mobile.scss';
@@ -25,7 +25,7 @@
 
 @import './modules/blocks/article/article.scss';
 @import './modules/blocks/article/__text/article__text.scss';
-@import './modules/blocks/article/__text/_bold/article__text_bold.scss';
+@import './modules/blocks/article/__text/_weight/article__text_weight_bold.scss';
 @import './modules/blocks/article/__lists/article__lists.scss';
 @import './modules/blocks/article/__list/article__list.scss';
 @import './modules/blocks/article/__list-body/article__list-body.scss';
@@ -39,7 +39,7 @@
 @import './modules/blocks/button/_type/button_type_burger.scss';
 @import './modules/blocks/button/_type/button_type_close.scss';
 @import './modules/blocks/button/_type/button_type_submit.scss';
-@import './modules/blocks/button/_hide/button_hide.scss';
+@import './modules/blocks/button/_display/button_display_hide.scss';
 
 @import './modules/blocks/galery/galery.scss';
 @import './modules/blocks/galery/__img/galery__img.scss';
@@ -54,10 +54,11 @@
 @import './modules/blocks/press/__header/press__header.scss';
 @import './modules/blocks/press/__article/press__article.scss';
 @import './modules/blocks/press/__text/press__text.scss';
+@import './modules/blocks/press/__magazine/press__magazine.scss';
 @import './modules/blocks/press/__menu/press__menu.scss';
 @import './modules/blocks/press/__link/press__link.scss';
 @import './modules/blocks/press/__button/press__button.scss';
-@import './modules/blocks/press/__button/_on/press__button_on.scss';
+@import './modules/blocks/press/__button/_switch/press__button_switch_on.scss';
 
 @import './modules/blocks/footer/footer.scss';
 @import './modules/blocks/footer/__subscribe/footer__subscribe.scss';

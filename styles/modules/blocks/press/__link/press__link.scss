@@ -10,14 +10,19 @@
 
   text-align: center;
   text-decoration: none;
+  text-overflow: ellipsis;
   color: $mainTextColor;
 
   display: block;
 
-  font-family: 'Source Sans Pro';
+  font-family: $fontFamilies;
   font-style: normal;
   font-weight: normal;
   font-size: 19px;
+
+  line-height: 50px;
+
+  transition: $transition;
 
 }
 

@@ -1,13 +1,15 @@
 .button_type_details {
 
-    width: 340px;
-    height: 60px;
+    margin: 60px 0 0 0;
+
+    width: 360px;
+    height: 64px;
 
     color: #E1FD2C;
 
     border: $borderLine;
 
-    font-family: 'Source Sans Pro';
+    font-family: $fontFamilies;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;

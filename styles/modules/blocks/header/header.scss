@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
 
-    background-image: url(../../../../images/logo.png);
+    background-image: url(../images/logo.svg);
     background-repeat: no-repeat;
     background-position: center;
     border-bottom: $borderLine;
@@ -36,7 +36,8 @@
 
         padding: 0 20px;
     
-        background-image: url(../../../../images/logo_mobile.png);
+        // background-image: url(../../../../images/logo_mobile.png);
+        background-size: 100px;
     
     }
 

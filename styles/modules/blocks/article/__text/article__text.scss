@@ -8,11 +8,11 @@
     max-width: 720px;
     width: 100%;
 
-    font-family: 'Source Sans Pro';
+    font-family: $fontFamilies;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
-    line-height: 42px;
+    line-height: 140%;
     color: #E1FD2C;
 
     // border-right: $borderLine;
