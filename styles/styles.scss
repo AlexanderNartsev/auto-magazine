@@ -1,10 +1,7 @@
 @import './modules/vendor/normalize.css';
 @import './modules/vendor/fonts/fonts.css';
-
 @import './modules/variables.scss';
-
 @import './modules/blocks/swiper/swiper.scss';
-
 @import './modules/blocks/page/page.scss';
 @import './modules/blocks/header/header.scss';
 @import './modules/blocks/header/__nav/header__nav.scss';
@@ -13,16 +10,12 @@
 @import './modules/blocks/header/__menu-el/header__menu-el.scss';
 @import './modules/blocks/header/__link/header__link.scss';
 @import './modules/blocks/header/_mobile/header_mobile.scss';
-
 @import './modules/blocks/main/main.scss';
-
 @import './modules/blocks/cover/cover.scss';
 @import './modules/blocks/cover/__content/cover__content.scss';
 @import './modules/blocks/cover/__title/cover__title.scss';
-@import './modules/blocks/cover/__model/cover__model.scss';
 @import './modules/blocks/cover/__text/cover__text.scss';
 @import './modules/blocks/cover/__image/cover__image.scss';
-
 @import './modules/blocks/article/article.scss';
 @import './modules/blocks/article/__text/article__text.scss';
 @import './modules/blocks/article/__text/_weight/article__text_weight_bold.scss';
@@ -33,14 +26,12 @@
 @import './modules/blocks/article/__list-el/article__list-el.scss';
 @import './modules/blocks/article/__list-el/_type/arcitle__list-el_type_plus.scss';
 @import './modules/blocks/article/__list-el/_type/arcitle__list-el_type_minus.scss';
-
 @import './modules/blocks/button/button.scss';
 @import './modules/blocks/button/_type/button_type_details.scss';
 @import './modules/blocks/button/_type/button_type_burger.scss';
 @import './modules/blocks/button/_type/button_type_close.scss';
 @import './modules/blocks/button/_type/button_type_submit.scss';
 @import './modules/blocks/button/_display/button_display_hide.scss';
-
 @import './modules/blocks/galery/galery.scss';
 @import './modules/blocks/galery/__img/galery__img.scss';
 @import './modules/blocks/galery/__navigation/galery__navigation.scss';
@@ -49,7 +40,8 @@
 @import './modules/blocks/galery/__area/galery__area.scss';
 @import './modules/blocks/galery/__buttons/galery__buttons.scss';
 @import './modules/blocks/swiper/__button/swiper__button.scss';
-
+@import './modules/blocks/swiper/__button/_type/swiper__button_type_right.scss';
+@import './modules/blocks/swiper/__button/_type/swiper__button_type_left.scss';
 @import './modules/blocks/press/press.scss';
 @import './modules/blocks/press/__header/press__header.scss';
 @import './modules/blocks/press/__article/press__article.scss';
@@ -59,14 +51,13 @@
 @import './modules/blocks/press/__link/press__link.scss';
 @import './modules/blocks/press/__button/press__button.scss';
 @import './modules/blocks/press/__button/_switch/press__button_switch_on.scss';
-
+@import './modules/blocks/button/_type/button_type_mobile.scss';
 @import './modules/blocks/footer/footer.scss';
 @import './modules/blocks/footer/__subscribe/footer__subscribe.scss';
 @import './modules/blocks/footer/__title/footer__title.scss';
 @import './modules/blocks/footer/__description/footer__description.scss';
 @import './modules/blocks/footer/__info/footer__info.scss';
 @import './modules/blocks/footer/__copyright/footer__copyright.scss';
-
 @import './modules/blocks/form/form.scss';
 @import './modules/blocks/form/__input/form__input.scss';
 @import './modules/blocks/form/__input/_type/form__input_type_firstName.scss';

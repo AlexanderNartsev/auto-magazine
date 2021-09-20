@@ -1,16 +1,9 @@
 .cover {
 
     padding: 150px 0;
-
     max-width: 1440px;
     width: 100%;
-
     border-bottom: $borderLine;
-
-    // display: flex;
-    // flex-direction: row;
-    // justify-content: space-between;
-    
     display: grid;
     grid-template-columns: 1fr 1fr;
 
@@ -21,7 +14,6 @@
     .cover {
 
         padding: 100px 34px;
-    
         display: flex;
         flex-direction: column;
         justify-content: space-between;

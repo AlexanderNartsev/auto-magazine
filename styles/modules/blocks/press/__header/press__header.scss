@@ -2,20 +2,25 @@
 
   margin: 0;
   padding: 50px;
-
   box-sizing: border-box;
-
   font-family: $fontFamilies;
   font-style: normal;
   font-weight: normal;
   font-size: 46px;
   line-height: 46px;
-  /* identical to box height, or 100% */
-
   color: #E1FD2C;
-
   max-width: 720px;
   width: 100%;
   height: 100%;
+
+}
+
+@media screen and (max-width: 768px) {
+  
+  .press__header {
+
+    display: none;
+
+  }
 
 }

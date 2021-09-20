@@ -1,15 +1,23 @@
 .article__lists {
 
     margin: 0;
-
     box-sizing: border-box;
-
     max-width: 720px;
     width: 100%;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .article__lists {
+
+        max-width: none;
+        min-height: 505px;
+
+    }
 
 }

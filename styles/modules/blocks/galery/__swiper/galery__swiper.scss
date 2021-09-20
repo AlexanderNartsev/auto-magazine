@@ -1,10 +1,19 @@
 .galery__swiper {
 
   margin: 0;
-
   max-width: 720px;
   width: 100%;
-
   border-right: $borderLine;
 
+}
+
+@media screen and (max-width: 768px) {
+  
+  .galery__swiper {
+
+    border-right: none;
+    max-width: 700px;
+  
+  }
+  
 }

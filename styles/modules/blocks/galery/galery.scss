@@ -1,19 +1,25 @@
 .galery {
 
   margin: 0;
-
   max-width: 1440px;
   width: 100%;
   height: 100%;
-
   border-bottom: $borderLine;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+}
 
+@media screen and (max-width: 768px) {
+  
+  .galery {
+
+    width: auto;
+    padding: 35px 0 0 0;
+    border-bottom: none;
+  
+  }
+  
 }

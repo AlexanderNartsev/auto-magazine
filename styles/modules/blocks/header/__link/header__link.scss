@@ -1,18 +1,14 @@
 .header__link {
 
     text-decoration: none;
-
     color: $mainTextColor;
-
     font-family: $fontFamilies;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 16px;
-    /* identical to box height, or 133% */
     letter-spacing: 1px;
     text-transform: uppercase;
-
     transition: $transition;
 
 }

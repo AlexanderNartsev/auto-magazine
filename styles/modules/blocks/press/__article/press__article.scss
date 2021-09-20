@@ -2,25 +2,28 @@
 
   margin: 0;
   padding: 50px;
-
   min-height: 500px;
-
   box-sizing: border-box;
-
   font-family: $fontFamilies;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
   line-height: 42px;
-  /* or 140% */
-
   color: #E1FD2C;
-
   border-left: $borderLine;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
+
+}
+
+@media screen and (max-width: 768px) {
+  
+  .press__article {
+
+    border-top: $borderLine;
+
+  }
 
 }

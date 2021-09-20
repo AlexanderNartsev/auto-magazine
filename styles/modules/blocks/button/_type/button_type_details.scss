@@ -1,14 +1,10 @@
 .button_type_details {
 
     margin: 60px 0 0 0;
-
     width: 360px;
     height: 64px;
-
     color: #E1FD2C;
-
     border: $borderLine;
-
     font-family: $fontFamilies;
     font-style: normal;
     font-weight: normal;
@@ -27,3 +23,13 @@
     opacity: 1;
 
 }
+
+@media screen and (max-width: 768px) {
+  
+    .button_type_details {
+  
+      display: none;
+  
+    }
+  
+  }

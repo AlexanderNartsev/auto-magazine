@@ -3,3 +3,14 @@
   box-sizing: border-box;
 
 }
+
+@media screen and (max-width: 768px) {
+
+  .swiper {
+
+    max-width: 700px;
+    max-height: 510px;
+  
+  }
+  
+}

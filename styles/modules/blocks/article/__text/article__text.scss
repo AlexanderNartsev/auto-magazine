@@ -2,12 +2,9 @@
 
     margin: 0;
     padding: 40px 50px 41px;
-
     box-sizing: border-box;
-    
     max-width: 720px;
     width: 100%;
-
     font-family: $fontFamilies;
     font-style: normal;
     font-weight: normal;
@@ -15,6 +12,16 @@
     line-height: 140%;
     color: #E1FD2C;
 
-    // border-right: $borderLine;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .article__text {
+
+        max-width: none;
+        border-bottom: $borderLine;
+        padding: 40px 50px 45px;
+
+    }
 
 }

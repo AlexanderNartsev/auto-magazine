@@ -1,17 +1,11 @@
 .form__input {
 
     padding-left: 11px;
-
     background-color: $mainPageColor;
-
     border: 1px solid $mainTextColor;
     border-radius: 0;
-
     color: $mainTextColor;
-
     box-sizing: border-box;
-
-
     font-family: $fontFamilies;
     font-style: normal;
     font-weight: normal;
@@ -20,7 +14,6 @@
     /* identical to box height, or 200% */
     letter-spacing: 1px;
     text-transform: uppercase;
-
     color: #E1FD2C;
 
 }
