@@ -9,3 +9,15 @@
     align-items: flex-end;
 
 }
+
+@media screen and (max-width: 320px) {
+    
+    .footer__info {
+
+        padding: 105px 20px 50px;
+        align-items: normal;
+        width: auto;
+    
+    }
+
+}

@@ -17,3 +17,14 @@
     content: '- ';
 
 }
+
+@media screen and (max-width: 320px) {
+    
+    .article__list-el {
+
+        font-size: 16px;
+        line-height: 20px;
+
+    }
+
+}

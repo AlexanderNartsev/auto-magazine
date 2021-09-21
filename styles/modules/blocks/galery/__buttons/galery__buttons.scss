@@ -9,3 +9,13 @@
   align-items: center;
 
 }
+
+@media screen and (max-width: 768px) {
+  
+  .galery__buttons {
+
+    max-width: 75px;
+  
+  }
+
+}

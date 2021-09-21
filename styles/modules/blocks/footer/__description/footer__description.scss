@@ -9,3 +9,15 @@
     color: $mainTextColor;
 
 }
+
+@media screen and (max-width: 320px) {
+    
+    .footer__description {
+
+        margin: 0 0 60px 0;
+        font-size: 14px;
+        line-height: 14px;
+
+    }
+
+}

@@ -25,3 +25,14 @@
   background-color: $mainTextColor;
 
 }
+
+@media screen and (max-width: 320px) {
+  
+  .press__link {
+
+    width: 88px;
+    height: 42px;
+
+  }
+
+}

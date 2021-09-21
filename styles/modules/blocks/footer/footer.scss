@@ -10,3 +10,13 @@
     justify-content: space-between;
 
 }
+
+@media screen and (max-width: 320px) {
+    
+    .footer {
+
+        flex-direction: column;
+    
+    }
+
+}

@@ -2,10 +2,11 @@
 
     padding: 150px 0;
     max-width: 1440px;
-    width: 100%;
+    // width: 100%;
     border-bottom: $borderLine;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
 
 }
 
@@ -13,11 +14,23 @@
 
     .cover {
 
+        max-width: 768px;
         padding: 100px 34px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+    
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+
+    .cover {
+
+        max-width: 320px;
+        padding: 61px 20px;
     
     }
     
