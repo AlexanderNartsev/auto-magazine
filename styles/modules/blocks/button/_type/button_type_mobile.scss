@@ -2,7 +2,6 @@
 
   display: none;
   margin: 0;
-  width: 280px;
 
 }
 
@@ -15,3 +14,14 @@
   }
 
 }
+
+@media screen and (max-width: 320px) {
+  
+  .button_type_mobile {
+
+    width: 280px;
+
+  }
+
+}
+

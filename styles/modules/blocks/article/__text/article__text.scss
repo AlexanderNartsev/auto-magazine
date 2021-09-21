@@ -3,8 +3,7 @@
     margin: 0;
     padding: 40px 50px 41px;
     box-sizing: border-box;
-    max-width: 720px;
-    width: 100%;
+    width: 50%;
     font-family: $fontFamilies;
     font-style: normal;
     font-weight: normal;
@@ -14,13 +13,14 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1220px) {
     
     .article__text {
 
+        width: 100%;
+        padding: 18px 50px 45px;
         max-width: none;
         border-bottom: $borderLine;
-        padding: 40px 50px 45px;
 
     }
 
@@ -30,9 +30,7 @@
     
     .article__text {
 
-        padding: 18px 50px 45px;
-        font-size: 16px;
-        line-height: 27px;
+        padding: 40px 50px 45px;
 
     }
 

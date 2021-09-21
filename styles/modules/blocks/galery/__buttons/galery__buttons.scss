@@ -14,6 +14,16 @@
   
   .galery__buttons {
 
+    max-width: 129px;
+  
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  
+  .galery__buttons {
+
     max-width: 75px;
   
   }

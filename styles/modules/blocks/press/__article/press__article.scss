@@ -15,6 +15,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
+  width: 50%;
 
 }
 
@@ -22,6 +23,7 @@
   
   .press__article {
 
+    width: 100%;
     border-top: $borderLine;
 
   }
