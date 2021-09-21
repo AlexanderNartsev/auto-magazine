@@ -35,6 +35,11 @@
 
         padding: 20px;
         border-left: none;
+        
+    }
+
+    .article__list:first-of-type {
+
         border-bottom: $borderLine;
         
     }
