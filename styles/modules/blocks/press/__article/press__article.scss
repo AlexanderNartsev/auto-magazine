@@ -25,12 +25,13 @@
 
     width: 100%;
     border-top: $borderLine;
+    border-left: none;
 
   }
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 630px) {
   
   .press__article {
 

@@ -8,6 +8,17 @@
 
 }
 
+@media screen and (max-width: 1220px) {
+    
+    .article__list:first-of-type {
+
+        height: auto;
+        border-left: none;
+        
+    }
+
+}
+
 @media screen and (max-width: 768px) {
     
     .article__list {
@@ -18,7 +29,7 @@
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 630px) {
     
     .article__list {
 
