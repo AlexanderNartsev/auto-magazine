@@ -1,0 +1,34 @@
+.article__lists {
+
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 50%;
+
+}
+
+@media screen and (max-width: 1220px) {
+    
+    .article__lists {
+
+        min-height: 505px;
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (max-width: 630px) {
+    
+    .article__lists {
+
+        flex-direction: column;
+        justify-content: flex-start;
+        min-height: auto;
+
+    }
+
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Auto-magazine</title>
+</head>
+
+<body class="page">
+
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__menu-el">
+                    <a class="header__link" href="#">Факты</a>
+                </li>
+                <li class="header__menu-el">
+                    <a class="header__link" href="#">Галерея</a>
+                </li>
+                <li class="header__menu-el">
+                    <a class="header__link" href="#">Пресса</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="button button_type_burger" type="button"></button>
+        <button class="button button_type_close button_display_hide" type="button"></button>
+    </header>
+
+    <main class="main">
+
+        <section class="cover">
+            <div class="cover__content">
+                <p class="cover__text">volkswagen T1</p>
+                <h1 class="cover__title">Новая версия популярного микроавтобуса</h1>
+                <p class="cover__text">С электродвигателем</p>
+                <button class="button button_type_details" type="button">Подробнее</button>
+            </div>
+            <img class="cover__image" src="./images/img1.jpg" alt="Обложка">
+            <button class="button button_type_details button_type_mobile" type="button">Подробнее</button>
+        </section>
+
+        <section class="article">
+            <p class="article__text"> <span class="article__text_weight_bold">VW T1 Electro:</span> Отделение Volkswagen
+                Commercial Vehicles представило концепт e-Bulli: классический вэн T1 1966 года
+                с электрической силовой установкой.
+                По словам производителя, проект получит коммерческое продолжение, и через фирму-партнера eClassics
+                наборы для конверсии микроавтобусов в электрокары
+                и уже готовые машины будут продавать частным клиентам.</p>
+            <div class="article__lists">
+                <div class="article__list">
+                    <h2 class="article__list-header">Плюсы</h2>
+                    <ul class="article__list-body">
+                        <li class="article__list-el arcitle__list-el_type_plus">Экологичный</li>
+                        <li class="article__list-el arcitle__list-el_type_plus">Экономичный</li>
+                        <li class="article__list-el arcitle__list-el_type_plus">Тихий</li>
+                    </ul>
+                </div>
+                <div class="article__list">
+                    <h2 class="article__list-header">Минусы</h2>
+                    <ul class="article__list-body">
+                        <li class="article__list-el arcitle__list-el_type_minus">Дорогой</li>
+                        <li class="article__list-el arcitle__list-el_type_minus">Подзарядка</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="galery">
+            <div class="galery__swiper">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="galery__img" src="./images/img2.jpg" alt="Слайд">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="galery__img" src="./images/img3.jpg" alt="Слайд">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="galery__img" src="./images/img4.jpg" alt="Слайд">
+                        </div>
+                    </div>
+                </div>
+                <div class="galery__navigation">
+                    <h3 class="galery__header">Галерея</h3>
+                    <div class="galery__buttons">
+                        <button class="swiper-button-prev button swiper__button swiper__button_type_left"
+                            type="button"></button>
+                        <button class="swiper-button-next button swiper__button swiper__button_type_right"
+                            type="button"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="galery__area"></div>
+        </section>
+
+        <section class="press">
+            <h3 class="press__header">Пресса</h3>
+            <div class="press__article">
+                <p class="press__text">
+                    <span class="press__magazine">Engadget:</span>
+                    VW’s e-BULLI concept shows how your classic van can becomean EV.
+                </p>
+                <div class="press__menu">
+                    <div class="press__list">
+                        <button class="button press__button press__button_switch_on" type="button"></button>
+                        <button class="button press__button" type="button"></button>
+                    </div>
+                    <a class="press__link"
+                        href="https://www.engadget.com/2020-03-20-vw-unveils-e-bulli-t1-electric-conversion.html"
+                        target="_blank">Читать</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <section class="footer">
+        <div class="footer__subscribe">
+            <h2 class="footer__title">Подписка</h2>
+            <p class="footer__description">На новые спецвыпуски машин.</p>
+            <form class="form" name="subscribe">
+                <input class="form__input form__input_type_firstName" type="text" placeholder="Имя" name="firstName">
+                <input class="form__input form__input_type_lastName" type="text" placeholder="Фамилия" name="lastName">
+                <input class="form__input form_input_type_email" type="text" placeholder="Почта" name="email">
+                <button class="button button_type_submit" type="submit">Подписка</button>
+            </form>
+        </div>
+        <div class="footer__info">
+            <img class="footer__logo" src="./images/logo.svg" alt="Логотип">
+            <p class="footer__copyright">&copy;&nbsp;Auto-Magazine&nbsp;2021</p>
+        </div>
+    </section>
+
+</body>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="./scripts/swiper.js"></script>
+<script src="./scripts/script.js"></script>
+
+
+</html>

@@ -1,0 +1,17 @@
+.button_type_submit {
+
+    background-color: #E1FD2C;
+    grid-column: 4/5;
+    font-family: $fontFamilies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    /* identical to box height, or 130% */
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #191D2C;
+
+}

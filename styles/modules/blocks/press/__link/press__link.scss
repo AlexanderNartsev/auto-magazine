@@ -1,0 +1,38 @@
+.press__link {
+
+  margin: 0;
+  width: 110px;
+  height: 52px;
+  border: $borderLine;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  color: $mainTextColor;
+  display: block;
+  font-family: $fontFamilies;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 50px;
+  transition: $transition;
+
+}
+
+.press__link:hover {
+
+  color: $mainPageColor;
+  background-color: $mainTextColor;
+
+}
+
+@media screen and (max-width: 630px) {
+  
+  .press__link {
+
+    width: 88px;
+    height: 42px;
+
+  }
+
+}

@@ -1,0 +1,31 @@
+.galery__buttons {
+
+  margin: 0;
+  max-width: 132px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+@media screen and (max-width: 768px) {
+  
+  .galery__buttons {
+
+    max-width: 129px;
+  
+  }
+
+}
+
+@media screen and (max-width: 630px) {
+  
+  .galery__buttons {
+
+    max-width: 75px;
+  
+  }
+
+}

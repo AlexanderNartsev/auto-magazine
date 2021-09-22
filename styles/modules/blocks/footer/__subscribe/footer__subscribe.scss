@@ -1,0 +1,35 @@
+.footer__subscribe {
+
+    padding: 50px 0 50px 50px;
+    max-width: 670px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-right: $borderLine;
+
+}
+
+@media screen and (max-width: 768px) {
+    
+
+    .footer__subscribe {
+
+        border-right: none;
+
+    }
+
+}
+
+@media screen and (max-width: 630px) {
+    
+
+    .footer__subscribe {
+
+        padding: 21px 20px 14px;
+        width: auto;
+
+    }
+
+}

@@ -1,0 +1,35 @@
+.cover__title {
+
+    display: block;
+    margin: 0;
+    padding: 30px 0 20px 0;
+    font-family: $fontFamilies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 73px;
+    text-align: center;
+    color: $mainTextColor;
+}
+
+@media screen and (max-width: 768px) {
+
+    .cover__title {
+
+        padding: 30px 0 50px 0;
+    
+    }
+    
+}
+
+@media screen and (max-width: 630px) {
+
+    .cover__title {
+
+        padding: 30px 0 30px 0;
+        font-size: 38px;
+        line-height: 50px;
+
+    }
+    
+}

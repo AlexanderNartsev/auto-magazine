@@ -1,0 +1,25 @@
+.article__list-header {
+
+    margin: 0;
+    padding: 0 0 50px 0;
+    font-family: $fontFamilies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #E1FD2C;
+}
+
+@media screen and (max-width: 630px) {
+    
+    .article__list-header {
+        
+        padding: 0 0 45px 0;
+        font-size: 22px;
+        line-height: 22px;
+
+    }
+
+}

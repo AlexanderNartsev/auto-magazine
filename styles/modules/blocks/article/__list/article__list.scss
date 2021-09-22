@@ -1,0 +1,47 @@
+.article__list {
+
+    margin: 0;
+    padding: 40px 50px 41px 50px;
+    box-sizing: border-box;
+    width: 100%;
+    border-left: $borderLine;
+
+}
+
+@media screen and (max-width: 1220px) {
+    
+    .article__list:first-of-type {
+
+        height: auto;
+        border-left: none;
+        
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .article__list {
+
+        height: auto;
+        
+    }
+
+}
+
+@media screen and (max-width: 630px) {
+    
+    .article__list {
+
+        padding: 20px;
+        border-left: none;
+        
+    }
+
+    .article__list:first-of-type {
+
+        border-bottom: $borderLine;
+        
+    }
+
+}

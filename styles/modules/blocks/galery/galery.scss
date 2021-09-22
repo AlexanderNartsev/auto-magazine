@@ -1,0 +1,35 @@
+.galery {
+
+  margin: 0;
+  max-width: 1440px;
+  border-bottom: $borderLine;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-self: baseline;
+  width: 100%;
+
+}
+
+@media screen and (max-width: 768px) {
+  
+  .galery {
+
+    display: block;
+    padding: 35px 0 0 0;
+    border-bottom: none;
+  
+  }
+  
+}
+
+@media screen and (max-width: 630px) {
+  
+  .galery {
+
+    padding: 19px 0 0 0;
+  
+  }
+  
+}

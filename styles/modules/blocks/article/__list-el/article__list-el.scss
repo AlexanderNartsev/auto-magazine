@@ -1,0 +1,30 @@
+.article__list-el {
+
+    margin: 0;
+    padding: 0 0 2px 0;
+    font-family: $fontFamilies;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #E1FD2C;
+    list-style: none;
+
+}
+
+.article__list-el::before {
+
+    content: '- ';
+
+}
+
+@media screen and (max-width: 630px) {
+    
+    .article__list-el {
+
+        font-size: 16px;
+        line-height: 20px;
+
+    }
+
+}

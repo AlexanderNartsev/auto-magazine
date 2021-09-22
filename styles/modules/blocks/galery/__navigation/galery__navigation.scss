@@ -1,0 +1,31 @@
+.galery__navigation {
+
+  margin: 0;
+  padding: 50px 40px 50px 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+}
+
+@media screen and (max-width: 768px) {
+  
+  .galery__navigation {
+
+    padding: 50px 49px 50px 49px;
+
+  }
+
+}
+
+@media screen and (max-width: 630px) {
+  
+  .galery__navigation {
+
+    padding: 50px 10px 20px 20px;
+
+  }
+
+}

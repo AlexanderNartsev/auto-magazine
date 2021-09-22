@@ -1,0 +1,47 @@
+.cover {
+
+    padding: 150px 0;
+    max-width: 1440px;
+    border-bottom: $borderLine;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .cover {
+
+        max-width: 768px;
+        padding: 100px 34px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    
+}
+
+@media screen and (max-width: 630px) {
+
+    .cover {
+
+        max-width: 630px;
+        padding: 61px 20px;
+    
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+    .cover {
+
+        max-width: 320px;
+        border-bottom: none;
+    
+    }
+
+}

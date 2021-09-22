@@ -1,0 +1,23 @@
+.article {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    border-bottom: $borderLine;
+}
+
+@media screen and (max-width: 1220px) {
+    
+    .article {
+
+        flex-direction: column;
+
+    }
+
+}

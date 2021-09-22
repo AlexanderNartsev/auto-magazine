@@ -1,0 +1,27 @@
+.cover__image {
+
+    width: 100%;
+    align-self: center;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .cover__image {
+
+        padding: 100px;
+        max-height: 510px;
+    
+    }
+    
+}
+
+@media screen and (max-width: 630px) {
+
+    .cover__image {
+
+        padding: 60px 0 60px 0;
+    
+    }
+    
+}

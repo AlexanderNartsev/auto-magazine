@@ -1,0 +1,23 @@
+.footer__description {
+
+    margin: 0 0 64px 0;
+    font-family: $fontFamilies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 28px;
+    color: $mainTextColor;
+
+}
+
+@media screen and (max-width: 630px) {
+    
+    .footer__description {
+
+        margin: 0 0 60px 0;
+        font-size: 14px;
+        line-height: 14px;
+
+    }
+
+}
