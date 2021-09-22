@@ -18,7 +18,6 @@ const pressMagazine = page.querySelector('.press__magazine');
 const pressText = page.querySelector('.press__text');
 const pressLink = page.querySelector('.press__link');
 const pressList = page.querySelector('.press__list');
-const buttonPressArr = pressList.querySelectorAll('.press__button');
 
 function openMobileMenu() {
 
@@ -38,24 +37,39 @@ function closeMobileMenu() {
 
 }
 
-function addListenetrs(arr1, arr2) {
+function addPoints(arr1, arr2) {
 
-    for (i = 0; i < arr1.length; i++) {
+    arr1.forEach(element => {
+
+        const template = page.querySelector('#element-template').content;
+        const point = template.querySelector('.press__button').cloneNode(true);
+
+        arr2.prepend(point);
+
+    });
+
+};
+
+function addListenetrs(arr) {
+
+    const buttonPressArr = pressList.querySelectorAll('.press__button');
+
+    for (i = 0; i < buttonPressArr.length; i++) {
 
         let n = i;
 
-        arr1[i].addEventListener('click', () => {
+        buttonPressArr[i].addEventListener('click', () => {
 
-            pressText.textContent = arr2[n].state;
-            pressLink.setAttribute('href', arr2[n].link);
+            pressText.textContent = arr[n].state;
+            pressLink.setAttribute('href', arr[n].link);
 
-            for (k = 0; k < arr1.length; k++) {
+            for (k = 0; k < buttonPressArr.length; k++) {
 
-                arr1[k].classList.remove('press__button_switch_on');
+                buttonPressArr[k].classList.remove('press__button_switch_on');
 
             }
 
-            arr1[n].classList.add('press__button_switch_on');
+            buttonPressArr[n].classList.add('press__button_switch_on');
 
         })
 
@@ -66,14 +80,5 @@ function addListenetrs(arr1, arr2) {
 buttonMenu.addEventListener('click', openMobileMenu);
 buttonClose.addEventListener('click', closeMobileMenu);
 
-addListenetrs(buttonPressArr, pressArr);
-
-
-
-
-
-
-
-
-
-
+addPoints(pressArr, pressList);
+addListenetrs(pressArr);
